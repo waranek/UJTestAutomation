@@ -1,0 +1,12 @@
+/*
+
+!.gitignore
+!pom.xml
+!testng.xml
+!configuration.properties
+!/src
+!/resources
+
+/src/*
+!/src/main
+!/src/resources

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <parameter name="browserType" value="firefox" /> <!-- chrome / firefox -->
+    <parameter name="implicitlyWait" value="10" /> <!-- INT -->
+    <parameter name="windowMaximize" value="true" /> <!-- true / false -->
+    <parameter name="screenshot" value="false" /> <!-- true / false -->
+    <test name="Regression1">
+        <classes>
+            <class name="selenium.uj.project.tests.LoginTest"/>
+            <class name="selenium.uj.project.tests.WishlistTest"/>
+            <class name="selenium.uj.project.tests.SearchTest"/>
+        </classes>
+    </test>
+</suite>
